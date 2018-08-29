@@ -6,7 +6,7 @@ Previous work :
 
 1. Please install nodejs firstly, this solution is developed by v8.9.0
 
-https://nodejs.org/dist/v8.9.0/
+   https://nodejs.org/dist/v8.9.0/
 
 2. Download source code and use "npm" to install node modules.
 
@@ -15,7 +15,7 @@ $npm install
 
 3. Download redis.
 
-https://redis.io/download
+   https://redis.io/download
 
 4. For now both udp or api server is connect to redis, IP : 127.0.0.1
 
@@ -44,18 +44,15 @@ Data format usage :
 PATH : /IOT-Decoder/udpServer/dataFormat.json
 
 you should define:
-{ ***
-  Package Name:{ ***
-    "Type ID": "number", ***
-    "Type Field" "number", ***
-    "Data": { ***
-      "Data name":{ ***
-        "level" : "number", ***
-        "Data fields" : "num,num,num,num", ***
-        "Data Unit" : "string", ***
-      } ***
-    } ***
-  } ***
-} ***
+
+"Package Name":
+|--"Type ID": "number",
+|--"Type Field" "number",
+|--"Data":
+   |--"Data name":
+      |--"level" : "number",
+      |--"Data fields" : "num,num,num,num",
+      |--"Data Unit" : "string" (option)
+
 
 Please flow the format define of dataFormat.json to define new package.
