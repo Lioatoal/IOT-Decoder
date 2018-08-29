@@ -1,0 +1,8 @@
+{
+  "name": "UDP_Decoder_API",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/udpServer.js"
+  }
+}

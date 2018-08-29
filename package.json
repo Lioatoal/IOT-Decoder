@@ -1,0 +1,16 @@
+{
+  "name": "Roy_API",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.1",
+    "dateformat": "^3.0.2",
+    "dgram": "^1.0.1",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "redis": "^2.8.0"
+  },
+  "description": "NodeJS Version: 8.4.0"
+}
