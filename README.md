@@ -27,15 +27,15 @@ Usage :
 
    udp server:
 
-   $cd /IOT-Decoder/udpServer
+      $cd /IOT-Decoder/udpServer
 
-   $npm start
+      $npm start
 
    api server:
 
-   $cd /IOT-Decoder/apiServer
+      $cd /IOT-Decoder/apiServer
 
-   $npm start
+      $npm start
 
 2. open browser and URL is http://127.0.0.1:3000/
 
@@ -66,4 +66,4 @@ Data format usage :
 
                "Data Unit" : "string" (option)
 
-Please flow the format define of dataFormat.json to define new package.
+Please define a new package according to the name definition of dataFormat.json.
