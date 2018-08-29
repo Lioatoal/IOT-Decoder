@@ -44,18 +44,18 @@ Data format usage :
 PATH : /IOT-Decoder/udpServer/dataFormat.json
 
 you should define:
-{
-  Package Name:{
-    "Type ID": "number",
-    "Type Field" "number",
-    "Data": {
-      "Data name":{
-        "level" : "number",
-        "Data fields" : "num,num,num,num",
-        "Data Unit" : "string",
-      }
-    }
-  }
-}
+{ ***
+  Package Name:{ ***
+    "Type ID": "number", ***
+    "Type Field" "number", ***
+    "Data": { ***
+      "Data name":{ ***
+        "level" : "number", ***
+        "Data fields" : "num,num,num,num", ***
+        "Data Unit" : "string", ***
+      } ***
+    } ***
+  } ***
+} ***
 
 Please flow the format define of dataFormat.json to define new package.
